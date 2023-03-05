@@ -1,0 +1,18 @@
+h4
+{
+    width:350px;
+    height:30px;
+    background-color: aqua;
+    color: brown;
+}
+h3
+{
+color:blue;
+width:400px;
+height:30px;
+background-color:red;
+}
+#camera
+{
+    border:2px dashed olive;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Face Recognizer</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script> 
+    </head>
+    <body>
+        <center>
+<h1 class="btn btn-info">Face Recognizer</h1>
+<br><br>
+<h3>Darsh</h3>
+<br><br>
+<h3>Raj</h3>
+<br><br>
+<h3>Mom</h3>
+<br><br>
+<div class="container" id="camera"></div>
+<br><br>
+<div class="container"id="preview"></div>
+<button onclick="capture();"class="btn btn-primary "id="capture">Capture Image</button>
+<br><br>
+<button onclick="identify();" class="btn btn-danger" id="identify">identify Image</button>
+<h4 id="object_name">Object : </h4><span id="result_object_name"></span>
+<h4 id="accuracy">Accuracy : </h4><span id="result_object_accuracy"></span>
+</center> 
+<script src="main.js"></script>
+    </body>
+</html>
